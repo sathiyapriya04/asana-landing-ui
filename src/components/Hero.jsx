@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className="relative h-auto lg:h-[520px] max-w-6xl mx-auto flex flex-col lg:block gap-4">
 
                     {/* Left Column - Goals Card */}
-                    <div className="lg:absolute lg:top-0 lg:left-0 lg:w-56 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100 float-animation">
+                    <div className="lg:absolute lg:top-0 lg:left-0 lg:w-56 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100">
                         <div className="text-[10px] font-semibold text-text-muted tracking-wider uppercase mb-2">OPERATIONS</div>
                         <h4 className="text-sm sm:text-base font-medium text-text-dark mb-3 sm:mb-4">These goals are on track</h4>
                         <div className="space-y-3">
@@ -66,7 +66,7 @@ const Hero = () => {
                     </div>
 
                     {/* Left Column - Marketing Card */}
-                    <div className="lg:absolute lg:top-[220px] lg:left-0 lg:w-56 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100 float-animation-delayed">
+                    <div className="lg:absolute lg:top-[220px] lg:left-0 lg:w-56 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100">
                         <div className="text-[10px] font-semibold text-text-muted tracking-wider uppercase mb-2">MARKETING</div>
                         <h4 className="text-sm sm:text-base font-medium text-text-dark mb-3 sm:mb-4">1 task to complete</h4>
                         <div className="space-y-2 sm:space-y-3">
@@ -174,7 +174,7 @@ const Hero = () => {
                     </div>
 
                     {/* Right Column - Auto Messages Card */}
-                    <div className="lg:absolute lg:top-0 lg:right-0 lg:w-52 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100 float-animation-delayed">
+                    <div className="lg:absolute lg:top-0 lg:right-0 lg:w-52 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100">
                         <div className="text-[10px] font-semibold text-text-muted tracking-wider uppercase mb-2">PRODUCT</div>
                         <h4 className="text-sm sm:text-base font-medium text-text-dark mb-2 sm:mb-3">Automatically send messages</h4>
                         <div className="space-y-2 mb-3 sm:mb-4">
@@ -198,7 +198,7 @@ const Hero = () => {
                     </div>
 
                     {/* Right Column - Approval Card */}
-                    <div className="lg:absolute lg:top-[240px] lg:right-0 lg:w-52 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100 float-animation">
+                    <div className="lg:absolute lg:top-[240px] lg:right-0 lg:w-52 bg-white rounded-xl p-4 sm:p-5 shadow-lg border border-gray-100">
                         <h4 className="text-xs sm:text-sm font-medium text-text-dark mb-3 sm:mb-4">IT team is waiting for your approval</h4>
                         <div className="flex items-center gap-1 sm:gap-2 mb-3 sm:mb-4">
                             <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover" />
